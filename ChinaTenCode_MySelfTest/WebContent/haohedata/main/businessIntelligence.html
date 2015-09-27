@@ -1,0 +1,463 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+
+</head>
+<script src="../js/jquery-1.11.1.min.js"></script>
+		<script>
+		$(function(){
+	$(".left p").click(function(){
+		$(this).addClass("on").siblings().removeClass("on");
+		})
+	$(".left .p_1").click(function(){
+		$(".right .div_1").show();
+		$(".right .div_2").hide();
+		})
+	$(".left .p_2").click(function(){
+		$(".right .div_2").show();
+		$(".right .div_1").hide();
+		})
+	})
+		</script>
+ 
+
+<style>
+ 
+
+.top {
+    display: block;
+    margin: 0 auto;
+    width: 1500px;	
+	
+}
+
+ #nav {
+    display: block;
+    margin: 0 auto;
+    width: 1600px;
+}
+ #nav .mainlevel {
+	list-style:none;
+
+    float: left;
+    margin-left: 20px;
+    width: 80px;
+}
+#nav .mainlevel a {
+    
+    display: block;
+    font-size: 18px;
+    line-height: 54px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+#nav .mainlevel ul {
+    display: none;
+    position: absolute;
+}
+.business{
+margin-left:16%;
+font-size:22px;
+}
+
+.divtable{
+margin-left:17%;
+font-size:20px;
+
+}
+
+
+.NewsTop {
+    width: 302px;
+}
+#NewsTop {
+    clear: both;
+    margin-bottom: 16px;
+}
+#NewsTop #NewsTop_tit {
+    border-bottom: 3px solid #c2130e;
+    height: 21px;
+}
+#NewsTop P.topC0 {
+    background: #dcdcdc none repeat scroll 0 0;
+    border-left: 1px solid #f2f2f2;
+    cursor: pointer;
+    width: 40px;
+}
+#NewsTop P.topC1 {
+    background: #c2130e none repeat scroll 0 0;
+    border-left: 1px solid #f2f2f2;
+    color: #fff;
+    width: 40px;
+}
+#NewsTop #NewsTop_cnt A {
+    color: #666;
+    text-decoration: none;
+}
+#NewsTop #NewsTop_cnt A:hover {
+    color: #c2130e;
+    text-decoration: underline;
+}
+#NewsTop #NewsTop_cnt {
+    height: 260px;
+    line-height: 26px;
+    padding-left: 32px;
+    padding-top: 7px;
+    text-align: left;
+}
+.undis {
+    display: none;
+}
+.cont{
+	 width:100%;
+	 overflow:hidden;
+}
+.left{ 
+     width:12%;
+	 float:left;
+     margin-left:17%; 
+     text-align:center;
+	 margin-top:-9px;
+  }
+.left p{ 
+    width:99%;
+    height:30px;
+    border:1px double  #000; 
+    text-align:center;
+  }
+.left p.on{
+	background:url(../images/j-1.png);
+}
+.right{
+	   width:64%;
+ 	   border:1px solid  #666666;
+	   margin-left:29%;
+	   margin-top:6px;   
+   }
+.right div{ 
+
+	
+}
+.right .div_1{
+	font-family:"宋体"; 
+	font-size:13px;
+	padding-left:28px;
+	padding-top:10px;
+	padding-right:10px;
+
+	
+ }
+ .right .div_2{
+	 background:#FFFFFF; display:none;
+ }
+ .jiagou{
+margin-left:10px;
+font-family:"宋体";
+font-size:16px;
+font-weight:900;
+}
+
+.selfservice{
+margin-left:-700px;
+font-family:"宋体";
+font-size:16px;
+font-weight:900;
+
+}
+.selfservicesize{
+	font-family: "宋体"; 
+	font-size:13px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:10px;
+
+}
+.businesso{
+	font-family: "宋体"; 
+	font-size:13px;
+	padding-left:10px;
+	padding-top:10px;
+	padding-right:10px;
+}
+
+.div_2fastdelivery{
+	margin-left:3%;
+	margin-top:2%;
+
+}
+.div_2titlesize{
+	margin-left:4%;
+	margin-top:-5%;
+	font-family:sans-serif,Helvetica,sans-serif;
+	font-weight: bold;
+	font-weight:900;
+
+}
+.div_2fastdeliverysize{
+	font-family: "宋体"; 
+	font-size:13px;
+	
+	padding-top:0px;
+	padding-right:10px;
+}
+.div_2imgs{
+	margin-left:0%;
+	margin-top:-10%;
+
+}
+.div_2imgssize{
+font-family: "宋体"; 
+	font-size:13px;
+
+	margin-right:2px;	
+	margin-left:62%;
+    padding-right: 10px;
+	
+
+}
+
+.div_2titlesize2{
+	margin-left:4%;
+	margin-top:-5%;
+	font-family:sans-serif,Helvetica,sans-serif;
+	font-weight: bold;
+	font-weight:900;
+}
+.div_2selfservice{
+	font-family: "宋体"; 
+	font-size:13px;
+	padding-left:2px;
+	padding-top:0px;
+	padding-right:10px;
+
+
+}
+
+.div_2titlesize3{
+	margin-left:4%;
+	margin-top:-5%;
+	font-family:sans-serif,Helvetica,sans-serif;
+	font-weight: bold;
+	font-weight:900;
+}
+.div_3imgs{
+	margin-left:103%;
+	margin-top:-101%;
+
+}
+.div_3realtime{
+	margin-right:2px;
+	width:35%;
+	margin-left:-4%;
+    padding-right: 10px;
+	font-family: "宋体"; 
+	font-size:13px;
+
+}
+.div_2fast{
+	font-family:"宋体"; 
+	font-size:13px;
+	padding-left:0px;
+	padding-top:0px;
+	padding-right:10px;
+	
+ }
+ 
+ .div_2hailiangul{
+ margin-left:-29px;
+ color:#33FF00;
+ 
+ 
+ }
+
+
+</style>
+
+
+
+<body>
+<div class="businessIntelligence">
+		<div style="float:left;width:360px;text-align:right; padding-right:0px;">
+		
+				<img src="../images/logo.png" data-bd-imgshare-binded="1">
+ 		 </div>						
+			<div style="font-size:30px;text-align:center; padding-left:9px;">
+				<ul id="nav">
+					<li id="mainlevel_01" class="mainlevel" >
+						<a target="_parent" href="index.html" looyu_bound="1">网站首页</a>
+					</li>
+					<li id="mainlevel_02" class="mainlevel">
+					<a target="_parent" href="#" looyu_bound="1">商业智能</a>
+					</li>
+					<li id="mainlevel_03" class="mainlevel">
+					<a target="_parent" href="#"looyu_bound="1">员工福利</a>
+					</li>
+					<li id="mainlevel_04" class="mainlevel">
+					<a target="_parent" href="#"looyu_bound="1">关于我们</a>
+					</li>
+					<li id="mainlevel_05" class="mainlevel">
+					<a target="_parent" href="#"looyu_bound="1">诚聘英才</a>
+					</li>
+				</ul>
+	
+			</div>
+		<div style="float:left;width:100%; overflow:hidden; padding-right:0px; ">
+				<img src="../images/banner_2.png" width=100% height=5% data-bd-imgshare-binded="1">			
+		<div>		
+			<div class="business">
+				<p style="font-weight:900" >昊合商业智能</p>
+			</div>
+			
+			<div class="cont">
+									<div class="left">
+    										<p class="p_1 on">服务概览</p>
+       									    <p class="p_2">服务特色</p>
+   				                 	</div>
+									
+   								  	<div class="right">
+    										<div class="div_1">
+											<p> <span>昊合商业智能解决方案包括数据可视化分析工具和MPP数据集市俩部分，均基于JAVA语言开发，具有易学易用、高性能、自服务以及快速部署等特点，能为企业 各级人员提供最合适的商业智能解决方案，帮助企业用户构建敏捷的数据化运营体系，以最直观的形式快速的里阿杰企业的经营状态，为企业的经营决策提供数据支撑，重复的发挥数据的最大价值。<br /><br />
+											昊合数据可视化分析工具是一块先进的额BI数据分析软件，提供可视化设计工具帮助用户灵活搭建数据分析仪表盘、决策驾驶舱、动态多维图表以及各类商业智能应用。MPP数据集市是一款海量数据存储、处理的软件。数据集市可单机部署，亦可基于PC服务器进行分布式扩展，利用列存储和内存计算，实现从千万到百亿级数据分析秒响应，帮您轻松应对大数据时代的挑战。	 
+											</span></p> 
+												<div class="jiagou">
+													<p> <img src="../images/j-2.png" / >&nbsp;&nbsp;<span>昊合商业智能解决方案技术架构</span></p><br />
+													<img src="../images/h-1.png" />
+
+												</div>
+									
+									
+											</div>
+										<div class="div_2">
+											<div class="div_2fastdelivery">
+												<img src="../images/j-2.png" />
+													<div class="div_2titlesize">
+														<p><span>快速交付 </span></p>
+																<div class="div_2fast" style="font-weight: normal;" >
+																	<p> <span>传统BIF系统的经典架构，底层是数据源，接着是ETL（抽取、转换、装载）到数据仓库形成EDW层，为了提高分析速度一般还会把数据做预先汇总形成轻度或者高度汇总层，或者抽取到数据集市做这个工作，或者抽取到CubeServer去打Cube，然后在通过前端展现工具让用户数据分析。整个系统由N个产品组成，成本一般比较昂贵，建设周期一般在半年以上甚至跨年，做好项目计划，一般是瀑布试的实施方法，每步都涉及到比较重要的数据形态的转变.</span></p> <br />	
+																</div>
+																
+																	<dl>
+																		<dd class="div_2imgssize" style="font-weight: normal;">
+														昊合商业智能平台是一代敏捷性BI软件，不对数据进行汇总，而是直接基于细节数据，打牌传统BIF软件建二次表、Cibe、复杂模型的漫长流程，建模工作轻量级，通过人性化拖拽可快速生成分析报表，成本和上线周期仅为传统BIF的四份之一。
+																		</dd>
+																		<dd class="div_2imgs"> 
+																		<img src="../images/t_1.png" />
+																		</dd>										
+																	</dl>				
+													</div>
+														
+															
+															
+										
+											</div>
+											
+											
+											<div class="div_2fastdelivery">
+													<img src="../images/j-2.png" />
+													<div  class="div_2titlesize"> 
+													  <p><span>自助服务 </span></p>
+													  	<div class="div_2selfservice" style="font-weight: normal;">
+																<p><span>商业智能应用的现状: 频繁变化的业务需求，业务用户常常抱怨IT部门无法满足他们需求，现在实现商业智能（BI）系统太复杂不易于使用。一方面是业务人员对数据分析的积极渴望，一方面是技术部门没有足够的能力或便利满足业务部门的需求。另外业务人的水平合分析思路逐渐提升，当看到一场或者引起关注的的变化时，往往希望进行即席的、深入的分析以获取现象背后的原因。</span></p><br />
+				<p><span>针对这些现状，昊合商业智能平台提供了探索式BI或自主式BI的解决方案。对于业务分析人员，在昊合商业智能平台能看到是一个个被IT人员封装、发布的BI分析主题。每个分析主题下涵盖了该主题可能会用到的所有数据。这些数据都是业务化了的，它们的名称都被转义成业务名，它们的代码表都已经被绑定在一起，有的甚至和业务人员熟悉的Excenl表样绑定起来。</span></p><br />
+				<p><span>在使用昊合商业智能分析模块进行数据分析时，需要的操作仅是点击与拖拽。所有这些操作的标准就是所见即所得和业务人员容易操作。无论是基本数据的找数据、设计表样；进阶的过来、排序、钻取；还是高级的维度与指标自由切换、组件联动分析、管理驾驶舱，一切只与业务有关、与分析有关，而与数据库的知识或技术无关。信息部门从传统BI工具无尽的需求沟通中解放出来，而业务热源做分析从不在求人。</span></p><br />
+				<p><span>以上这些泰索式或自主式的应用帮助业务人员能够按照自己的分析思路进行分析，而不被数据等问题打断，同事自己对数据的及时性合准确性负责，这样也大大提高业务人员的满意度。由于大部分的数据分析应用由业务人员的自行开发，开发应用的关联人员减少，整个机管理更加扁平化，而响应时间却大大缩短，企业的经营管理能力和战略决策水平随之提升。相比传统的而商业智能喜用，自服务商业智能系统更优化，更有效率。</span></p><br />
+																
+																</div>
+													  
+													  
+													 </div>
+											</div>
+											
+											<div class="div_2fastdelivery">
+												<img src="../images/j-2.png" />
+												<div class="div_2titlesize3">
+														<p><span>实时决策</span></p>
+														
+															<div class="div_3realtime">
+										<dl>
+													<dd class="div_3imgssize"  style="font-weight: normal;">
+														昊合移动BIF可以无缝支持PC、iPhone、iPad合Android，并子啊这些终端设备上保持一致。易用的用户体验。您可以随时随地通过移动设备进行数据分析、从而做出正确决策。用户在PC端设计的仪表盘、报表等分析功能通过简单喷纸即可在移动端以后适合的方式完美的呈现。<br /><br />
+														<br /><br />
+														<br /><br />
+														在旅途中，在会议间歇，企业的决策者合管理者通过移动BI动动物质就能掌握公司动向，即刻讲反馈信息传达到业务部们，彻底冲破了传统数据分析智能在办公室做的时空枷锁i，并是分析与决策没有距离。
+														
+												</dd>
+												<dd class="div_3imgs"> 
+													<img src="../images/t_2.png" />
+												</dd>
+												
+											
+											</dl>
+												</div>		
+												</div>
+											</div>
+											
+											<div class="div_2fastdelivery">
+												<img src="../images/j-2.png" />
+													<div class="div_2titlesize2">
+															<p><span>海量数据秒级响应</span></p>
+															<div class="div_2fastdeliverysize" style="font-weight: normal;">
+													<p><span>昊合商业智能平台的底层有一个支持列存储、内存计算和分布式计算的高性能数据集市，可在秒级速度内处理百亿甚至更多的数据，帮您轻松应对大数据时代的挑战。</span></p>
+																
+																	<div class="div_2hailiangul">
+																			<ul>
+																				<li>列存储(Colum-Based)</li>
+																			</ul>
+																				
+																	</div>
+																	
+																	<div class="div_2hailiangsize">
+																				基于列存储的数据集市，不读取无关数据，能降低读写开销，同事提高I/O的效率，从而大大提高查询性能。另外，列存储能够更好地压缩数据，一般压缩比在5-10倍之间，这样一来，数据占有空间降低到传统存储的1/5到1/10。狼嚎的数据压缩技术，节省了存储设备合内存的开销，却大大的提升计算性能。
+																			
+																	
+																	</div>
+																	<div class="div_2hailiangul">
+																			<ul>
+																				<li>内存计算</li>
+																			</ul>
+																				
+																	</div>
+																		<div class="div_2hailiangsize">
+										得益于列存储技术和并行计算技术，能够大大压缩数据，并同时利用多个节点的计算能力和内存容量。一般地，内存访问速度比磁盘速度要快几百倍甚至上千倍。通过内存计算，CPU直接从内存而非磁盘上读取并对数据计算。内存计算是对传统数据处理方式的一种加速，是实现大数据分析的关键应用技术。
+																			
+																	
+																	</div>
+																	
+																
+																
+															</div>
+															
+															
+													</div>
+												
+											</div>
+											
+										</div>
+										
+  								    </div>
+			</div>
+			
+		 	
+			
+			
+			
+			
+			     
+				 
+				 
+				 
+				 
+				 
+				 
+		 <div class="talentedPeople">
+					<iframe  class="iframe" src="../bottom.html" scrolling="no"  frameborder="0"  width=100% height=100% ></iframe>
+		  </div>
+				       
+</div>
+		
+</body>
+</html>

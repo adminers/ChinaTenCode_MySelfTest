@@ -1,0 +1,310 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+</head>
+</head>
+<script src="../js/jquery-1.11.1.min.js"></script>
+<script>
+$(function(){
+$(".left p").click(function(){
+$(this).addClass("on").siblings().removeClass("on");
+})
+$(".left .p_1").click(function(){
+$(".right .div_1").show();
+$(".right .div_2").hide();
+})
+$(".left .p_2").click(function(){
+$(".right .div_2").show();
+$(".right .div_1").hide();
+})
+})
+/*
+ * 
+ 	添加焦点事件
+ */
+ $(".left p_1").focus(
+	alert()	
+	
+ ); 
+$(".left p_1").blur(
+	alert()
+)
+</script>
+<style>
+ 
+
+.top {
+    display: block;
+    margin: 0 auto;
+    width: 1500px;	
+	
+}
+
+ #nav {
+    display: block;
+    margin: 0 auto;
+    width: 1600px;
+}
+ #nav .mainlevel {
+	list-style:none;
+
+    float: left;
+    margin-left: 20px;
+    width: 80px;
+}
+#nav .mainlevel a {
+    
+    display: block;
+    font-size: 18px;
+    line-height: 54px;
+    text-align: center;
+    text-decoration: none;
+    width: 200px;
+}
+#nav .mainlevel ul {
+    display: none;
+    position: absolute;
+}
+.cont{  
+	 width:100%;
+	 overflow:hidden;
+}
+.left{
+	
+   	 width:13%;
+	 float:left;
+     margin-left:185px; 
+     text-align:center;
+	 margin-top:-1%;
+}
+.left p{   
+    width:100%;
+    height:30px;
+    border:1px solid #E5E3E0; 
+    text-align:center;
+   	font-size:16px;
+    cursor:pointer;
+   
+    
+}
+.left p.on{	
+	background-color: #00C04D;
+	
+}
+.left .imgup{
+	margin-top:5px;
+	margin-left:52px;
+	margin-right: -58px;
+}
+.left .imgdown{
+	margin-top:5px;
+	margin-left:37px;
+	margin-right: -42px;
+}
+.right{  
+	   width:796px;
+ 	   border:1px solid  #E5E3E0;
+	   margin-left:360px;
+	   margin-top:2px;}
+.right div{
+
+}
+.right .div_1{
+
+ background: #FFFFFF;
+ }
+.right .div_2{
+	 background:#FFFFFF; display:none;
+}
+
+.business {
+    font-size: 22px;
+    margin-left: 13%;
+}
+.div_2phone{
+margin-left:4%;
+margin-top:7%;
+
+
+
+}
+.div_2phonesize{
+margin-left:6%;
+margin-top:-5%;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-weight:900;
+
+}
+.div_2em{
+margin-left:-6%;
+margin-top:5%;
+
+}
+.div_2emailsize{
+margin-left:6%;
+margin-top:-5%;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-weight:900;
+
+}
+.div_2address{
+margin-left:-6%;
+margin-top:5%;
+}
+.div_2addresssize{
+margin-left:6%;
+margin-top:-5%;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-weight:900;
+
+
+}
+.div_2map{
+margin-left:-2%;
+margin-top:7%;
+
+
+}
+.div_1size{
+	font-family: "宋体"; 
+	font-size:13px;
+	padding-left:10px;
+	padding-top:0px;
+	padding-right:10px;
+}
+.ddseize{
+margin-right:2px;
+width:274px;
+margin-left:10px;
+
+}
+.img{
+	margin-left:304px;
+	margin-top:-308px;
+
+}
+</style>
+
+
+<body>
+<div class="top">
+		<div style="float:left;width:360px;text-align:right; padding-right:0px;">
+		
+				<img src="../images/logo.png" data-bd-imgshare-binded="1">
+  </div>
+			
+			
+			<div style="font-size:30px;text-align:center; padding-left:9px;">
+				<ul id="nav">
+					<li id="mainlevel_01" class="mainlevel" >
+						<a target="_parent" href="index.html" looyu_bound="1">网站首页</a>
+					</li>
+					<li id="mainlevel_02" class="mainlevel">
+					<a target="_parent" href="#" looyu_bound="1">商业智能</a>
+					</li>
+					<li id="mainlevel_03" class="mainlevel">
+					<a target="_parent" href="#"looyu_bound="1">员工福利</a>
+					</li>
+					<li id="mainlevel_04" class="mainlevel">
+					<a target="_parent" href="#"looyu_bound="1">关于我们</a>
+					</li>
+					<li id="mainlevel_05" class="mainlevel">
+					<a target="_parent" href="#"looyu_bound="1">诚聘英才</a>
+					</li>
+				</ul>
+	
+	</div>
+	
+
+</div>
+		<div style="float:left;width:100%; overflow:hidden; padding-right:opx;">
+			<img src="../images/banner_2.png" width=100% height=5% data-bd-imgshare-binded="1">	
+				<div class="business">
+					<p style="font-weight:900" >公司简介</p>
+				</div>
+				
+					<hr / width=75% style="margin-left:13%">
+					<div class="cont">
+						<div class="left">
+    					  <p class="p_1 on">概览&nbsp;<img class="imgup" src="../images/shape-11.png" alt="" /></p>
+    					  
+      					  <p class="p_2">联系我们<img class="imgdown" src="../images/shape-11.png" alt="" /></p>
+  					    </div>
+						
+    					<div class="right">
+    						<div class="div_1">
+								<div class="div_1size">
+										<p> <span>北京昊合数据科技有限公司（以下简称昊合数据或公司）是以健康医疗和数据分析为服务为核心创新型企业。公司以客户为导向，深刻理解企业客户的需求，依托强大的数据采集能力和资源整合能力，应用先进的大数据分析和处理技术，在福利管理、数据分析、IT咨询等领域为客户提供全面的解决方案。<br /><br />昊合数据员工福利管理平台，旨在为企业员工、HR合第三方服务机构提供福利设计、管理、使用。查询、支付等功能，是国内顶尖的以数据为基础，以保险保障。医疗健康为核心服务的专业化平台<br /><br />在商业智能领域，昊合数据为企业客户提供更灵活易用的商业智能产品、数据分析解决方案以及一流的顾问咨询和服务体验。公司拥有一支专业化数据挖掘和分析师团队，以员工福利管理平台积累的大量数据为基础，深刻理解保险、医院和制药企业的客户需求，通过进一步整合数据提供商业的专家数据资产，为大健康产业链的相关企业提供数据分析服务。我们秉承“因为专业，所以专业”的理念，以探索式、业务驱动的商业智能服务，帮助企业实现精细化管理和高效运营，支持企业的战略决策，使决策更智慧。<br /><br />
+										
+										<dl>
+										
+										<dd class="ddseize"> 公司的创始股东曾经创立国内最大的TPA服务机构，为超过一万家大中型企业提供健康保险理赔服务。在创立之初，就构建了集团化运作的思路：以数据为灵魂、以网络为服务基础、以平台为渠道，聚焦于大健康产业。目前业务范围以涵盖员工福利平台、医疗服务、医疗投资基金、保险经纪、BI数据服务。管理咨询等六大领域。<br /><br />我们的核心管理团队分别来自中外知名的保险、IT、医疗、咨询机构和专业公司，在数据、营运、市场、金融等方面拥有丰富的行业经验和超强的管理能力，是EMB（员工福利管理）行业不可多得的梦幻组合。<br /><br />
+										公司总部位于北京，上海舍友分支机构，在南京。济南设有研发中心，目前已逐步建立起辐射全国一二线城市的服务网络，可满足客户不同层级的业务需求。
+										
+										</dd>
+										
+										
+
+											<dd class="img">
+												<img src="../images/t_7.png" />
+											</dd>
+											</dl>
+										
+										
+										<br />
+										
+								</div>
+							</div>
+							
+							
+      				    	<div class="div_2">
+									<div class="div_2phone">
+											<img src="../images/phone25.png" />
+										
+											<div class="div_2phonesize">
+												<p><span>官方电话 ： 010-65565251 </span></p>
+													<div class="div_2em">
+															<img src="../images/mail61.png" />
+															<div class="div_2emailsize">
+																		<p><span>邮箱 ：sale@haohedata.com1 </span></p>
+																		<div class="div_2address">
+																			<img src="../images/pointer17.png" />
+																				<div class="div_2addresssize">
+																					<p><span>地址 ：北京市朝阳区八里庄西里99号2号楼908室 </span></p>
+																					 <div class="div_2map">
+																					  <img src="../images/d_1.png" height="294" width="657"/>
+																						
+																					 </div>
+																				
+																				</div>
+																		
+																		
+																		
+																		</div>
+																		
+																
+															</div>
+													
+													</div>
+											
+									   	   </div>
+									
+							       </div>
+                            </div>
+   						</div>
+					</div>
+						
+				<div id="bottom" style="width:100%; height:10%">
+    					<iframe  class="iframe" src="../bottom.html" scrolling="no"  frameborder="0"  width=100% height=20% ></iframe>
+  				 </div>
+				
+		</div>
+
+				
+</body>
+</html>
