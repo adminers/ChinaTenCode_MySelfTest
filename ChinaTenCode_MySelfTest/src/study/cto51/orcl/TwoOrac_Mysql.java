@@ -23,7 +23,7 @@ public class TwoOrac_Mysql {
 	 * womax_admin (ID, typegroupcode, typegroupname) VALUES
 	 * ('40289f5e4f16fdc7014f17092f780051', 'sex', '性别类');
 	 */
-	CREATE TABLE
+	/*CREATE TABLE
 
 	SX_LCCONT
 	(
@@ -213,4 +213,6 @@ public class TwoOrac_Mysql {
 	
 	INSERT INTO `sx_lccont` (grpcontno, contno, proposalcontno, prtno, conttype, familytype, familyid, poltype, cardflag, managecom, executecom, agentcom, agentcode, agentgroup, agentcode1, agenttype, salechnl, HANDLER, PASSWORD, appntno, appntname, appntsex, appntbirthday, appntidtype, appntidno, insuredno, insuredname, insuredsex, insuredbirthday, insuredidtype, insuredidno, payintv, paymode, paylocation, disputedflag, outpayflag, getpolmode, signcom, signdate, signtime, consignno, bankcode, bankaccno, accname, printcount, losttimes, lang, currency, remark, peoples, mult, prem, amnt, sumprem, dif, paytodate, firstpaydate, cvalidate, inputoperator, inputdate, inputtime, approveflag, approvecode, approvedate, approvetime, uwflag, uwoperator, uwdate, uwtime, appflag, polapplydate, getpoldate, getpoltime, customgetpoldate, state, operator, MAKEDATE, MAKETIME, modifydate, modifytime, firsttrialoperator, firsttrialdate, firsttrialtime, receiveoperator, receivedate, receivetime, tempfeeno, selltype, forceuwflag, forceuwreason, newbankcode, newbankaccno, newaccname, newpaymode, agentbankcode, bankagent, bankagentname, bankagenttel, prodsetcode, mac)
 	VALUES ('314100000000033', '0000438409', '0000438409', '314100000000033', '2', '0', NULL, '0', '0', '864100', NULL, NULL, '31410002', '000000001021', NULL, '01', '2', NULL, NULL, '90000000387', '中国邮政储蓄银行股份有限公司濮阳市分行', NULL, NULL, NULL, NULL, '00002604309', '李芳', '1', DATE_FORMAT('20-10-1986', '%m-%d-%Y'), '0', '410928198610202127', 0, NULL, NULL, NULL, NULL, NULL, '864100', NULL, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, NULL, NULL, 1, 0, 98.14, 176000, 0, 0, DATE_FORMAT('24-08-2014', '%m-%d-%Y'), DATE_FORMAT('22-08-2013', '%m-%d-%Y'), DATE_FORMAT('24-08-2013', '%m-%d-%Y'), '4100448', DATE_FORMAT('22-08-2013', '%m-%d-%Y'), '15:44:04', '9', '4100417', DATE_FORMAT('22-08-2013', '%m-%d-%Y'), '16:11:39', '9', '1000182', DATE_FORMAT('22-08-2013', '%m-%d-%Y'), '16:52:08', '0', DATE_FORMAT('22-08-2013', '%m-%d-%Y'), NULL, NULL, NULL, '0', '1000182', DATE_FORMAT('22-08-2013', '%m-%d-%Y'), '15:35:48', DATE_FORMAT('22-08-2013', '%m-%d-%Y'), '16:52:08', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, '4005DFA2056EA6AA');
-}
+*/
+	
+	}
